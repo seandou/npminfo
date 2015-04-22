@@ -1,0 +1,37 @@
+{
+  "name": "npminfo",
+  "version": "0.0.1",
+  "description": "Get useful infomation of npm package",
+  "homepage": "https://github.com/seandou/npminfo",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seandou/npminfo.git"
+  },
+  "keywords": [
+    "npm",
+    "github",
+    "package",
+    "infomation"
+  ],
+  "author": "Sean Dou <douguohui@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "./lib/npminfo.js",
+  "dependencies": {
+    "request": "^2.54.0",
+    "cli-spinner": "^0.2.0",
+    "commander": "^2.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4"
+  },
+  "bin": {
+    "npminfo": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.x"
+  }
+}
