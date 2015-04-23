@@ -35,7 +35,7 @@ var printNpmInfo = function(info) {
   console.log('latest-version: ' + info['latest-version']);
   console.log('modified: ' + info.modified);
   
-  if (info.forks) {
+  if (info.forks != undefined) {
     console.log('watchers: ' + info.watchers + ', stars: ' + info.stars + ', forks: ' + info.forks);
   }
   
