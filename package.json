@@ -1,6 +1,6 @@
 {
   "name": "npminfo",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Get useful infomation of npm package",
   "homepage": "https://github.com/seandou/npminfo",
   "repository": {
